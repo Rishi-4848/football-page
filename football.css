@@ -1,0 +1,290 @@
+.ball-head{
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 1.25rem;
+  position: relative;
+  max-width: 100%;
+  
+}
+
+.match{
+  color: white;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-size: 1.125rem;
+ 
+  
+}
+
+.home-button-1{
+  height: 50%;
+  background-color:black;
+  color: white;
+  zoom: 150%;
+  border-color: #000000;
+}
+
+.home-button-2 {
+  height: 40%;
+  background-color: #000000;
+  color: white;
+  zoom: 150%;
+  position: absolute;
+ right: 0rem;
+ top: 1.25rem;
+ border-color: #000000;
+ 
+}
+
+.main-body{
+  min-width: 50%;
+  margin: 0rem 25rem 0rem 25rem;
+  background-color: whitesmoke;
+  position: relative;
+}
+
+.sub-heading{
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+}
+
+.match-time{
+  position: absolute;
+  right:0.625rem;
+  color: #70757a;
+}
+
+.score-board{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 1.25rem;
+  margin-top: 0.625rem;
+}
+
+.team-1, .team-2 {
+  height: 48px;
+  width: 48px;
+  
+}
+
+.soccer-div, .card-div  {
+  height: 24px;
+  width: 24px;
+  background-color: whitesmoke;
+}
+
+.tollywood, .bollywood,.soccer-image, .card-image, .play-icon{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.score{
+  min-width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.team1-score, .team2-score, .dash{
+  font-size: 30px;
+}
+
+.goalscorers, .match-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 0.625rem;
+}
+
+.match-video{
+  max-width: 30%;
+  display: flex;
+  flex-direction: row;
+}
+
+.video{
+  min-width: 14.5rem;
+ min-height: 8.125rem;
+ margin: 10px 0px 10px 10px;
+
+}
+
+.video-image{
+  height: 100%;
+  width: 100%;
+  border-radius: 0.625rem;
+}
+
+.play-div{
+  width: 48px;
+  position: relative;
+  bottom: 6.25rem;
+ left: 6.25rem;
+}
+
+.play-icon-1{
+  height: 3rem;
+  width: 3rem;
+  z-index: 1;
+ /*position: relative;
+ bottom: 6.25rem;
+ left: 6.25rem;*/
+}
+
+.play-icon-2{
+  height: 3rem;
+  width: 3rem;
+  z-index: 1;
+ /* position: relative;
+  bottom: 6.25rem;
+ left: 6.25rem;*/
+  
+
+
+}
+
+.stats-ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.guider{
+  text-decoration: none;
+  color: #918e8e;
+}
+
+.guider:hover{
+  color: black;
+}
+
+.lineup-head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  top: 70px;
+  
+}
+
+.pitch-div{
+  width: 100%;
+  height: 110vh;
+}
+
+.pitch-image{
+  width: 100%;
+  height: 100%;
+}
+
+.active-t1, .active-t2{
+  position: relative;
+}
+
+.goal-keeper1, .defenders1, .mid-feilders1, .attakers1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+}
+
+.goal-keeper1{
+  position: absolute;
+  top: 15px;
+  left: 45%;
+}
+
+.defenders1{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 100px;
+}
+
+.mid-feilders1{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around ;
+  top: 185px;
+}
+
+.attakers1{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around ;
+  top: 270px;
+}
+
+.goal-keeper2, .defenders2, .mid-feilders2, .attakers2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+}
+
+.goal-keeper2{
+  position: absolute;
+  bottom: 15px;
+  left: 45%;
+}
+
+.defenders2{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 100px;
+}
+
+.mid-feilders2{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around ;
+  bottom: 185px;
+}
+
+.attakers2{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around ;
+  bottom: 270px;
+}
+
+.active-players{
+  height: 48px;
+  width: 48px;
+}
+
+.player-logo{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+
+}
+
+
+
